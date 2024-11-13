@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
+    <title>Mi Presentación</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .container h1 {
+            font-size: 2.5rem;
+            color: #222;
+            margin-bottom: 0.5rem;
+        }
+
+        .container p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .container .quote {
+            font-style: italic;
+            font-size: 1rem;
+            color: #888;
+            margin-bottom: 1.5rem;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .skill {
+            background-color: #007acc;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    Hola mundo
+
+<div class="container">
+    <h1>Tu Nombre Completo</h1>
+    <p>Desarrollador <strong>Front-end</strong> | <strong>Back-end</strong> | <strong>Full Stack</strong></p>
+    
+    <p class="quote">"La tecnología debe ser invisible, permitiendo que las ideas brillen."</p>
+    
+    <h2>Habilidades</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">SQL</div>
+        <!-- Agrega más habilidades si es necesario -->
+    </div>
+</div>
+
 </body>
 </html>
